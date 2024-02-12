@@ -87,6 +87,12 @@ li a:hover{
     border-radius: 20px;
     border: solid grey 3px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 1s;
+}
+
+.port_buttons_bg:hover {
+    scale: 102%;
+    border: solid white 3px;
 }
 
 .contact_index {
@@ -96,6 +102,19 @@ li a:hover{
     border-radius: 20px;
     border: solid grey 3px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    transition: 1s;
+    
+    
+}
+
+.contact_index:hover {
+    scale: 102%;
+    border: solid white 3px;
 }
 
 a {
@@ -112,7 +131,7 @@ a {
   }
 
   body {
-    background:linear-gradient(to right, #232526, #414345)
+    background:linear-gradient(to right, #232526, #202020)
 
       
   }
