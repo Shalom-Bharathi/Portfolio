@@ -530,3 +530,7 @@ html {
     scale: 105%;
     border: solid black 3px;
 }
+
+.yes {
+    color:transparent;
+}
