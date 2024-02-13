@@ -514,7 +514,7 @@ html {
 .footer_div {
     background:linear-gradient(to right,#6E48AA, #9D50BB);
     font-family: "Quicksand",sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     padding-right: 15px;
     padding-left: 15px;
     margin-top:50px;
@@ -543,4 +543,26 @@ html {
     border-radius: 30px;
     color:#6E48AA;
 
+}
+
+.Credits_About_div {
+    background-color: transparent;
+    width:1400px;
+    height: 520px;
+    border-radius: 20px;
+    border: solid grey 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    transition: 1.5s;
+    font-size: 29px;
+}
+
+.Credits_About_div:hover {
+    scale: 105%;
+    border: solid white 3px;
+    color:white;
 }
