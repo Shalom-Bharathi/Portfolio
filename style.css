@@ -10,7 +10,7 @@
     font-weight: 500;
     padding-right: 15px;
     padding-left: 15px;
-    border: white;
+    
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -25,7 +25,13 @@
     font-size: 35px;
     font-weight: 700;
     font-family: "Quicksand",sans-serif;
-    color:white;
+    
+    transition: 1s;
+}
+
+.logo:hover {
+    opacity: 50%;
+    scale:102%
 }
 
 li {
@@ -108,7 +114,8 @@ li a:hover{
     font-size: 30px;
     text-align: center;
     color: black;
-    transition: 1.5s;
+    transition: 1s;
+    padding-top:30px;
     
     
 }
