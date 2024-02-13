@@ -529,8 +529,7 @@ html {
     text-align: center;
     color: black;
     transition: 1.5s;
-    
-    
+    font-size: 29px;
 }
 
 .Credits_About_div:hover {
@@ -538,3 +537,36 @@ html {
     border: solid black 3px;
 }
 
+.footer_div {
+    background:linear-gradient(to right,#EB3349, #F45C43);
+    font-family: "Quicksand",sans-serif;
+    font-weight: 700;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top:50px;
+    border:solid rgba(0, 0, 0, 0.3) 3px;
+    padding-top:20px;
+    
+    height:100px;
+    width: 1450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 23px;
+    margin-bottom: 0px;
+}
+
+.footer_text{
+    transition: 1s;
+}
+
+.footer_text:hover {
+    scale:101%;
+    opacity: 70%;
+    background-color: white;
+    width:700px;
+    height: 30px;
+    border-radius: 30px;
+    color:#EB3349
+
+}
