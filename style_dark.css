@@ -13,6 +13,8 @@
     border: white;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
 }
 
 .navdiv {
@@ -565,4 +567,19 @@ html {
     scale: 105%;
     border: solid white 3px;
     color:white;
+}
+
+.sri_image {
+    width:350px;
+    display: inline-block;
+    margin-left: 100px;
+    transition: 1s;
+    border:solid grey 3px;
+    border-radius: 50px;
+    scale:80%
+}
+
+.sri_image:hover {
+    scale: 85%;
+    border:solid white 3px;
 }

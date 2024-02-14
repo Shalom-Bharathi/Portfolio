@@ -8,11 +8,12 @@
     background:linear-gradient(to right,#EB3349, #F45C43);
     font-family: "Quicksand",sans-serif;
     font-weight: 500;
-    padding-right: 15px;
-    padding-left: 15px;
-    
+    padding-left:15px;
+    padding-right:15px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
 }
 
 .navdiv {
@@ -569,4 +570,19 @@ html {
     border-radius: 30px;
     color:#EB3349
 
+}
+
+.sri_image {
+    width:350px;
+    display: inline-block;
+    margin-left: 100px;
+    transition: 1s;
+    border:solid grey 3px;
+    border-radius: 50px;
+    scale:80%
+}
+
+.sri_image:hover {
+    scale: 85%;
+    border:solid black 3px;
 }
